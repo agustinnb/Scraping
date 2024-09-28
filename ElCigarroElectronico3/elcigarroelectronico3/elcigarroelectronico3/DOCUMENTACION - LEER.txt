@@ -1,0 +1,19 @@
+/*************** CREAR LA BASE DE DATOS EN TU PC ****************/
+* Instalar Docker (Si no lo tenés instalado)
+/******************* INICIALIZAR BASE DE DATOS EN DOCKER ************/
+
+Una vez instalado docker y corriendo
+En linea de comandos:
+Vamos a la carpeta: ElCigarroElectronico\elcigarroelectronico\elcigarroelectronico\mysql-server
+Y escribimos:
+docker-compose -f deploy_mysql.yml up
+
+/*************** AHORA, SCRIPT DE PYTHON ************************/
+
+* Activar venv
+cd [path]\ElCigarroElectronico
+venv\Scripts\activate.bat
+
+
+DESCARGAR CONNECTOR PYTHON (MYSQL) DE ACÁ:
+https://dev.mysql.com/downloads/connector/python/
