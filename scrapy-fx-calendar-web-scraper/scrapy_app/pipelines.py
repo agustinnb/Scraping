@@ -10,7 +10,7 @@ class ScrapyAppPipeline(object):
     def __init__(self, unique_id, *args, **kwargs):
         ## Connection to PostgreSQL
         hostname = 'ec2-34-199-68-114.compute-1.amazonaws.com'
-        username = 'lzhxopekerjaby'
+        username = '***'
         password = '***'
         database = 'd8q7q926sob5if'
         port = '5432'

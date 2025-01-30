@@ -14,8 +14,8 @@ class ScrapCorteraSpider(scrapy.Spider):
         return FormRequest.from_response(
             response,
             formdata={'_csrf': token,
-                      'password': 'xpdw9q7r7',
-                      'userid': 'heinz.rich@protonmail.com'},
+                      'password': '**',
+                      'userid': '**@protonmail.com'},
             callback=self.go_to_main_page)
 
     def go_to_main_page(self, response):
